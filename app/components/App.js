@@ -13,7 +13,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-	      <div className='container'>
+        <div className='container'>
           <Nav />
           <Switch>
             <Route exact path='/' component={Home} />
@@ -24,7 +24,7 @@ class App extends React.Component {
               return <p>Not Found</p>
             }} />
           </Switch>
-	      </div>
+        </div>
       </Router>
     )
   }
