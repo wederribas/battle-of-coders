@@ -7,7 +7,7 @@ class PlayerInput extends React.Component {
   static propTypes = {
     id: PropTypes.string.isRequired,
     label: PropTypes.string.isRequired,
-    onSubmit: PropTypes.string.isRequired,
+    onSubmit: PropTypes.func.isRequired,
   }
   static defaultProps = {
     label: 'Username',
